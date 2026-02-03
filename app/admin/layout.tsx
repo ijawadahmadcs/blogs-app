@@ -10,9 +10,9 @@ export default function Layout({ children }: { children: ReactNode }) {
           <div className="flex items-center justify-between w-full py-3 max-h-15 px-12 border-b-black">
             <h1 className="text-2xl font-bold">Admin Dashboard</h1>
           </div>
+          {children}
         </div>
       </div>
-      {children}
     </>
   );
 }
